@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\crud_v1_controller;
+
+Route::resource('crud', crud_v1_controller::class);
 
 /*
 |--------------------------------------------------------------------------
